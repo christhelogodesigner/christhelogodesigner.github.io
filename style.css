@@ -1,0 +1,323 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
+.container12, .container16 {
+    margin:0 auto;
+    padding:10px 0;
+    position:relative;
+    width:1140px;
+    display:flex;
+}
+
+img {width:100%;}
+
+img {height:auto;
+    margin:auto;
+    max-width:1140px;
+}
+
+html{
+ height:100%;
+ min-height:100%;
+ }
+
+body {
+min-height:100%;
+font: 14px/32px 'montserrat';
+color:#4a4a4a;
+background-color: #ffffff;
+font-weight: 100;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+    letter-spacing: 1.25px;
+}
+
+::selection{
+	background:#ffb302;
+}
+
+.section{
+
+    padding: 0px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+a{
+	color:#ffb302;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+    cursor:pointer;
+}
+
+a:hover, .link:hover{
+	color:#4a4a4a;
+}
+
+.link{
+    -moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+    cursor:pointer;
+}
+ul{
+    list-style: none;
+}
+
+	.main-header {
+		line-height: 23px;
+		font-weight: 500;
+		width: 100%;
+		z-index: 100;
+		padding: 18px 0 0 0;
+		height: 150px;
+		top: 0px;
+
+	}
+
+#top-menu-nav{
+    text-align: center;
+    margin: 30px auto;
+    width: 80%;
+}
+
+	#top-menu {
+	  width: 100%;
+    list-style: none;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+	}
+
+	#top-menu li {
+        display:inline-block;
+	  margin:0 20px;
+        font:16px/1 'montserrat';
+        font-weight:700;
+		letter-spacing:2px;
+        color:#4a4a4a;
+        vertical-align: middle;
+
+	}
+
+
+	#top-menu li a {
+			color:#4a4a4a;
+	  text-decoration: none;
+
+	  display: block;
+	  text-align: center;
+        -moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+
+#top-menu li a:hover{
+    color:#ffb302;
+}
+
+	#logo1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      width: 200px;
+      height: auto;
+	}
+
+/* Footer */
+
+footer{
+    text-align: center;
+    padding: 50px 0;
+    font-size:12px;
+    font-weight: 400;
+    color:#a8a8a6;
+}
+
+footer div{
+    height:80px;
+}
+
+/* Layout for smaller screens  */
+
+@media only screen and (max-width: 1024px) {
+
+    body {
+	font: 12px/28px 'montserrat';
+
+}
+
+    h2{
+        font-size:28px;
+    }
+    .bigger{
+	font-size:26px;
+	line-height:50px;
+}
+
+  .nav-links{
+        padding:20px;
+        height:120px;
+    }
+
+    .nav-previous, .nav-next{
+       position: inherit;
+        top:0;
+        height:auto;
+    }
+
+  .nav-previous a, .nav-next a{
+      visibility: inherit;
+  }
+
+     .nav-previous a{
+         padding:10px 50px 10px 0;
+     }
+
+    .nav-next a{
+        padding:10px 0px 10px 50px;
+    }
+
+    .nav-previous{
+        float:left;
+        margin-left:0px;
+    }
+
+    .nav-next{
+        float:right;
+        margin-right:0px;
+    }
+
+    #menu{
+		background:url(images/menu-bg.jpg)  scroll  no-repeat center center;
+    }
+
+}
+
+
+/* Layout for mobile version */
+
+
+@media handheld, only screen and (max-width: 767px)  {
+
+	.container12, .container16{
+        display: block;
+    }
+
+
+	 h1{
+        font-size:40px;
+    }
+
+
+
+    section{
+        padding:50px 0;
+    }
+
+	#logo1 {
+    width:25px;
+}
+
+    .hero{
+        padding:0 0 50px 0;
+        height:auto;
+    }
+
+    #home{
+        margin-top:0px;
+    }
+
+
+	#top-menu-nav {
+        width:100%;
+    }
+
+	#top-menu li {
+        margin:0 5px;
+    }
+
+
+
+    .nav-previous, .nav-next{
+        width:100%;
+         margin:5px 0;
+        height: 30px;
+
+    }
+
+  .nav-previous a, .nav-next a{
+     text-align: center;
+      width: 100%;
+      margin:0px;
+      padding: 0;
+  }
+
+    .nav-previous{
+        float:none;
+
+    }
+
+    .nav-next{
+        float:none;
+
+    }
+
+
+
+    .footersocial ul{
+        width:100%;
+    }
+
+    .footer-img{
+        float:none;
+        width:40px;
+        margin:0 10px;
+    }
+}
+
+
+
+
+/* ============================= */
+/* ! Layout for mobile portrait  */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 320px) {
+
+}
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
