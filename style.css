@@ -39,6 +39,17 @@ font-weight: 100;
     padding: 0px;
 }
 
+#aboutme {
+
+    padding: 10px;
+    font: 24px 'montserrat';
+    list-style: none;
+    text-align: center;
+    font-weight: 100;
+
+
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -57,6 +68,16 @@ font-weight: 100;
 .column img {
   margin-top: 8px;
   vertical-align: middle;
+}
+
+#description {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 100;
+    padding-right: 500px;
+    padding-left: 500px;
+
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
