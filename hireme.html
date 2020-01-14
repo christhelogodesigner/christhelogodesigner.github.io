@@ -1,10 +1,43 @@
 <!DOCTYPE HTML>
 
+<link rel="stylesheet" type="text/css" href="style.css">
+
 <form action="https://getsimpleform.com/messages?form_api_token=ddbe7eb3b687a4a1564211cb7b297c83" method="post">
 <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
 <input type='hidden' name='redirect_to' value='<thankyou.html>' />
 <!-- all your input fields here.... -->
-<input type='text' name='Your Name' />
-<input type='text' name='Your E-MAIL Adress' />
-<input type='submit' value='Submit' />
-</form>
+<body>
+
+
+	<div class="container-contact">
+
+		<div class="wrap-contact">
+				<span class="contact-form-title">
+					Hire Me!
+				</span>
+
+				<div class="wrap-input validate-input" data-validate="Please enter your name">
+					<input class="input" type="text" name="name" placeholder=" Name">
+					<span class="focus-input"></span>
+				</div>
+
+				<div class="wrap-input validate-input" data-validate = "Please enter your email: e@a.x">
+					<input class="input" type="text" name="email" placeholder="E-mail">
+					<span class="focus-input"></span>
+				</div>
+
+				<div class="wrap-input validate-input" data-validate = "Please enter your message">
+					<textarea class="input" name="message" placeholder="Your Message"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact-form-btn">
+					<button class="contact-form-btn">
+						<span>
+							Send
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
