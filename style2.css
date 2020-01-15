@@ -6,13 +6,62 @@
 [ FONT ]*/
 
 @font-face {
-  font-family: montserrant;
+  font-family: montserrat;
 }
 
 
 
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
+
+#top-menu-nav{
+    text-align: center;
+    margin: 30px auto;
+    width: 80%;
+}
+
+	#top-menu {
+	  width: 100%;
+    list-style: none;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+	}
+
+	#top-menu li {
+        display:inline-block;
+	  margin:0 20px;
+        font:16px/1 'montserrat';
+        font-weight:700;
+		letter-spacing:2px;
+        color:#4a4a4a;
+        vertical-align: middle;
+
+	}
+
+
+	#top-menu li a {
+			color:#4a4a4a;
+	  text-decoration: none;
+
+	  display: block;
+	  text-align: center;
+        -moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+
+#top-menu li a:hover{
+    color:#ffb302;
+}
+
+	#logo1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      width: 200px;
+      height: auto;
+	}
 
 * {
 	margin: 0px;
@@ -141,13 +190,13 @@ iframe {
   align-items: center;
   padding: 15px;
   position: relative;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 
 .wrap-contact {
   width: 550px;
   background: transparent;
-  padding: 50px 0px 160px 0px;
+  padding: 0px 0px 160px 0px;
 }
 
 
@@ -163,7 +212,7 @@ iframe {
   font-family: montserrat;
   font-weight: bold;
   font-size: 30px;
-  color: #403866;
+  color: #000000;
   line-height: 1.2;
   text-transform: uppercase;
   text-align: center;
@@ -294,7 +343,7 @@ textarea.input {
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
   border-radius: 31px;
-  background-color: #827ffe;
+  background-color: #000000;
   pointer-events: none;
 
   -webkit-transition: all 0.4s;
@@ -304,7 +353,7 @@ textarea.input {
 }
 
 .contact-form-btn:hover:before {
-  background-color: #403866;
+  background-color: #ffb302;
   width: calc(100% + 20px);
 }
 

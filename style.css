@@ -7,6 +7,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,addre
     display:flex;
 }
 
+
 img {width:100%;}
 
 img {height:auto;
@@ -284,7 +285,7 @@ iframe {
 }
 
 .wrap-contact {
-  width: 551px;
+  width: 550px;
   background: transparent;
   padding: 50px 0px 160px 0px;
 }
